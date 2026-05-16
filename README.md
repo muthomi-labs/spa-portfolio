@@ -17,9 +17,9 @@ A single-page application (SPA) built with React that displays a portfolio of pr
 
 ## Tech Stack
 
-- React 18
+- React
 - Vite
-- CSS (custom properties, no framework)
+- CSS 
 - Jest + React Testing Library
 
 ---
@@ -77,7 +77,7 @@ Then open your browser and go to **http://localhost:5173**
 src/
   components/
     Header.jsx          # Site header with logo and title
-    ProjectForm.jsx     # Controlled form to add new projects
+    ProjectsForm.jsx     # Controlled form to add new projects
     ProjectList.jsx     # Search bar + project grid
     ProjectCard.jsx     # Individual clickable project card
     SearchBar.jsx       # Search input with clear button
