@@ -17,8 +17,8 @@ function ProjectForm({ onAddProject }) {
       title: title.trim(),
       description: description.trim(),
       tech: tech ? tech.split(",").map((t) => t.trim()).filter(Boolean) : [],
-      link: "#",
-    });
+
+      link: "",});
     setTitle("");
     setDescription("");
     setTech("");
@@ -64,7 +64,7 @@ function ProjectForm({ onAddProject }) {
             id="tech"
             className="form-input"
             type="text"
-            placeholder="e.g. React, Node.js, CSS"
+            placeholder="e.g. React, HTML, CSS, JavaScript"
             value={tech}
             onChange={(e) => setTech(e.target.value)}
           />
